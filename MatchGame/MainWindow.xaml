@@ -1,0 +1,41 @@
+﻿<Window x:Class="MatchGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MatchGame"
+        mc:Ignorable="d"
+        Title="Find all of the maching animals" Height="450" Width="400">
+    <Grid x:Name="MainGrid" Width="400" Cursor="">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TextBlock_1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36"/>
+        <TextBlock x:Name="TextBlock_2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Column="1"/>
+        <TextBlock x:Name="TextBlock_3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Column="2"/>
+        <TextBlock x:Name="TextBlock_4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Column="3"/>
+        <TextBlock x:Name="TextBlock_5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="1"/>
+        <TextBlock x:Name="TextBlock_6" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock x:Name="TextBlock_7" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="1" Grid.Column="2"/>
+        <TextBlock x:Name="TextBlock_8" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="1" Grid.Column="3"/>
+        <TextBlock x:Name="TextBlock_9" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="2"/>
+        <TextBlock x:Name="TextBlock_10" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock x:Name="TextBlock_11" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="2" Grid.Column="2"/>
+        <TextBlock x:Name="TextBlock_12" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="2" Grid.Column="3"/>
+        <TextBlock x:Name="TextBlock_13" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="3"/>
+        <TextBlock x:Name="TextBlock_14" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="3" Grid.Column="1"/>
+        <TextBlock x:Name="TextBlock_15" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="3" Grid.Column="2"/>
+        <TextBlock x:Name="TextBlock_16" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" Width="70" VerticalAlignment="Center" FontWeight="Normal" TextAlignment="Center" FontSize="36" Grid.Row="3" Grid.Column="3"/>
+
+    </Grid>
+</Window>
